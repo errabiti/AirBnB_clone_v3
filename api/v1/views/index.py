@@ -3,8 +3,6 @@
 from api.v1.views import app_views
 from flask import Flask, Blueprint, jsonify
 from models import storage
-
-
 hbnbText = {
     "amenities": "Amenity",
     "cities": "City",
